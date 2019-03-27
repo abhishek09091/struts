@@ -14,6 +14,12 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 -->
+<%@ taglib prefix="s" uri="/struts-tags" %>
+<html>
+
+
+<body>
+<h1>I am Genius</h1>
 <title>Add User</title>
 <s:form action="addUser">
     <s:textfield name="id" label="ID *" required="true"/>
@@ -21,3 +27,5 @@ limitations under the License.
     <s:textfield name="lastName" label="Last Name *" required="true"/>
     <s:submit/>
 </s:form>
+</body>
+</html>

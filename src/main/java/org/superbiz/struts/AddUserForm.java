@@ -21,4 +21,8 @@ import com.opensymphony.xwork2.ActionSupport;
 
 public class AddUserForm extends ActionSupport {
 
+    public String execute()
+    {
+        return "success";
+    }
 }
